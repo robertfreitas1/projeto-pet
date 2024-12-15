@@ -1,0 +1,19 @@
+@import url(./cabecalho.css);
+
+:root{
+    --neutra-cinzaescuro: #444444;
+    --branco: #ffffff;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+   color: var(--neutra-cinzaescuro);
+   width: 100%;
+   height: 100%;
+   box-sizing: border-box;
+   background-color: var(--branco) ;
+
+   .container{
+    width: 1200px;
+   }
+}
