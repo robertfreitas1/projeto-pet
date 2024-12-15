@@ -23,14 +23,39 @@ border-radius: 2rem ;
 }
 
 .label-busca input{
-    background-color: transparent;
+
     border: none;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    outline: none;
 
 }
 
+.icone-busca{
+    display: flex;
+    align-items: center;
+
+    &::after{
+        content: "";
+        position: relative;
+        background-image: url("../assets/icones/busca.png");
+        background-repeat: no-repeat;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+
+    
+    }
+
+    
+}
+
+
+.botao-login{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 .navegacao{
     align-content: center;
 
@@ -60,14 +85,16 @@ border-radius: 2rem ;
         width: 0;
         height: 2px;
         background-color: var(--neutra-cinzaescuro);
-        transition: width 0.3s ease;
+        transition: width 0.7s ease;
 
 
     }
 }
 
+
 .menu-link:hover::after, .menu-link:focus::after{
 width: 100%; 
+
 }
 
 
