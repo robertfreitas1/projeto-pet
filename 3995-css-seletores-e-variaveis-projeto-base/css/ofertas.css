@@ -6,11 +6,12 @@
     gap: var(--gap-xl);
     background-color: var(--cor-secundaria-light);
     width: 100%;
-    padding: var(--padding-5xl);
+    padding: var(--padding-5xl) 0;
 }
 
 .ofertas-titulo {
     color: var(--cor-primaria-light);
+    font-size: 2rem;
 }
 
 .carrossel {
