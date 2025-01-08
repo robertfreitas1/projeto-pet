@@ -5,6 +5,7 @@
 @import url(./ofertas.css);
 @import url(./parceiros.css);
 @import url(./newsletter.css);
+@import url(./rodape.css);
 
 :root{
     --neutra-cinzaescuro: #444444;
@@ -98,7 +99,12 @@ body{
    box-sizing: border-box;
    background-color: var(--branco) ;
 
-   .container{
+  
+}
+.container {
     width: 1200px;
-   }
+
+    @media (max-width: 768px) {
+        width: 648px;
+    }
 }

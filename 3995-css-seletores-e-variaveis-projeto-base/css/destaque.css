@@ -5,7 +5,9 @@
     padding: 80px 0;
     background-color:var(--bege) ;
     
-    
+    @media (max-width: 768px) {
+        padding: var(--padding-xxl) var(--padding-3xl);
+    }
 }
 
 
@@ -13,6 +15,11 @@
   display: flex;
  justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+}
 }
 .destaque-titulo{
     font-family: 'sigmar', sans-serif;
